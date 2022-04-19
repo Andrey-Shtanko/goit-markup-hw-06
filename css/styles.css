@@ -683,23 +683,17 @@ footer .second-part-logo {
   margin-bottom: 10px;
 }
 
-.form-check{
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
+.form-label,
+.comment-label{
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
 }
-.checkbox-label{
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    margin-left: 8.38px;
-}
-.checkbox-label a{
-  color: var(--accent-color);
-}
+
 .form-input{
   display: inline-block;
+  padding-left: 42px;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -717,9 +711,27 @@ footer .second-part-logo {
 
 .input-icon{
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 11px;
+  left: 12px;
 
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  margin-left: 8.38px;
+}
+
+.checkbox-label a {
+  color: var(--accent-color);
 }
 
 
