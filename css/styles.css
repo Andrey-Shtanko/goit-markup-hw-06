@@ -646,6 +646,10 @@ footer .second-part-logo {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.close-btn:hover .close-icon,
+.close-btn:focus .close-icon{
+  fill: var(--accent-color);
+}
 
 .close-icon {
   position: absolute;
@@ -681,6 +685,13 @@ footer .second-part-logo {
   flex-direction: column;
   position: relative;
   margin-bottom: 10px;
+}
+
+.form-field:focus .form-input{
+  border: 1px solid var(--accent-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  
 }
 
 .form-label,
