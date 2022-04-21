@@ -778,7 +778,9 @@ footer .second-part-logo {
 .comment-field {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
+
 .form-comment {
   display: inline-block;
   resize: none;
@@ -787,7 +789,7 @@ footer .second-part-logo {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-bottom: 10px;
+  
   outline: none;
 }
 .form-comment:focus {
@@ -831,6 +833,8 @@ footer .second-part-logo {
   height: 15px;
   margin-right: 7px;
   background-image: url('../images/svg/check-actv.svg');
+  background-position: center;
+  border-color:var(--accent-color);
 }
  
 
@@ -839,10 +843,16 @@ footer .second-part-logo {
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  background-image: url('../images/svg/check-pass.svg');
+  border: 2px solid black;
+  border-radius: 2px;
+  /* background-image: url('../images/svg/check-pass.svg'); */
   transform: translateY(-1px);
 }
 
+
+.check-input:focus+.check-icon{
+  border-color:var(--accent-color);
+}
 
 
 
